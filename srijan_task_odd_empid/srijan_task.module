@@ -36,3 +36,16 @@ function srijan_task_theme() {
     ],
   ];
 }
+/**
+ * Implements hook_preprocess_html().
+ */
+function srijan_task_preprocess_html(&$var) {
+  $id = \Drupal::config('srijan_task.settings')->get('id');
+  $var['#attached']['html_head'][] = [
+    [
+      '#type'  => 'html_tag',
+      '#tag'   => 'script',
+      '#value' => 'srijan-config-id: ' . $id,
+      ]
+  ];
+}

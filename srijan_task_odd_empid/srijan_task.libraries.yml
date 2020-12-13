@@ -1,5 +1,0 @@
-srijan_task_assets:
-  version: 1.x
-  header: true
-  js:
-    js/srijan_custom.js: {}

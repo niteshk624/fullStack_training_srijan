@@ -27,7 +27,6 @@ class SrijanTaskBlock extends BlockBase {
       '#id' => $id,
       '#attached' => [
         'drupalSettings' => ['id' => $id],
-        'library' => 'srijan_task/srijan_task_assets',
       ],
     ];
     return $build;
