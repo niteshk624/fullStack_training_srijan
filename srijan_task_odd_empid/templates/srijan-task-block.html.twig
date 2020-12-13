@@ -1,0 +1,16 @@
+{#
+/**
+* @file
+* Default theme implementation to display a block.
+*
+* @see template_preprocess_block()
+*
+* @ingroup themeable
+*/
+#}
+{% set classes = [
+    'clear-both',
+] %}
+<div{{ attributes.addClass(classes) }} id="srijan-task-block">
+    <p>The id value of Srijan task config form value : {{ id }}</p>
+</div>

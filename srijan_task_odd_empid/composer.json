@@ -1,0 +1,13 @@
+{
+    "name": "srijan_task",
+    "type": "drupal-module",
+    "description": "Custom module for Srijan Full stack training assignments",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/srijan_task",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/srijan_task",
+        "source": "http://cgit.drupalcode.org/srijan_task",
+    },
+}

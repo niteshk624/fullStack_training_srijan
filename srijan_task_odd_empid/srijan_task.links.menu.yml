@@ -1,0 +1,6 @@
+srijan_task.settings:
+  title: 'Srijan Task Settings'
+  route_name: srijan_task.settings
+  description: 'A description for the menu entry'
+  parent: system.admin_config_system
+  weight: 99

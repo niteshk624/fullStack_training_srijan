@@ -1,0 +1,6 @@
+name: 'Srijan Task'
+type: module
+description: 'Custom module for Srijan Full stack training assignments'
+core: 8.x
+configure: srijan_task.settings
+package: 'Custom'

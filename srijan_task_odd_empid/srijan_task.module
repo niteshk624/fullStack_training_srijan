@@ -1,0 +1,38 @@
+<?php
+
+/**
+ * @file
+ * Contains srijan_task.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function srijan_task_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the srijan_task module.
+    case 'help.page.srijan_task':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Custom module for Srijan Full stack training assignments') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function srijan_task_theme() {
+  return [
+    'srijan_task_block' => [
+      'variables' => [
+        'id' => NULL
+      ],
+      'render element' => 'children',
+    ],
+  ];
+}
